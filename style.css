@@ -1,0 +1,94 @@
+/* Whole Body */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 80, 280);
+}
+
+/* Number Div */
+#numDiv{
+    margin-top: 300px;
+    margin-left: 30px;
+}
+
+/* The Number */
+#num{
+    font-size: 3rem;
+}
+
+/* Button Div */
+#btnDiv{
+    position: absolute;
+    top: 55%;
+}
+
+/* Button 1(Increase) */
+.btn1{
+    margin-right: 150px;
+    background-color: rgb(8, 248, 236);
+    color: green;
+    border-radius: 20px;
+    background-color: rgb(105, 204, 243);
+    transition: all 0.3s ease-in;
+    box-shadow: 5px 5px 5px rgb(10, 112, 160);
+}
+
+/* Random Button */
+.random{
+    border: 4px double blue;
+    position: absolute;
+    top: 80%;
+    font-size: 2rem;
+    background: linear-gradient(90deg, rgb(6, 32, 11) 0%, rgba(255,222,1,1) 35%, rgba(255,0,198,1) 62%, rgba(0,212,255,1) 100%);
+    color: black;
+}
+
+/* Box */
+.box{
+    background-color: rgb(38, 0, 255);
+    height: 25px;
+    width: 50px;
+    position: absolute;
+    left: 330px;
+}
+
+/* Button 2(Decrease) */
+.btn2{
+    margin-left: 60px;
+    background-color: rgb(8, 248, 236);
+    color: red;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    box-shadow: 5px 5px 5px rgb(10, 112, 160);
+}
+
+/* For Both Buttons */
+.button{
+    height: 50px;
+    width: 220px;
+    font-size: 2rem;
+}
+
+/* Button 1(Increase) Hover Efect */
+.btn1:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(21, 218, 21);
+    box-shadow: 5px 5px 5px rgb(213, 236, 12);
+}
+
+/* Button 2(Decrease) Hover Efect */
+.btn2:hover{
+    cursor: pointer;
+    color: black;
+    background-color: red;
+    box-shadow: 5px 5px 5px rgb(213, 236, 12);
+}
+
+/* Random Button Hover Efect */
+.random:hover{
+    cursor: pointer;
+    background: seagreen;
+    color: orange;
+}
